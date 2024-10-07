@@ -9,8 +9,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["React", "Bootstrap", "Nodejs", "ExpressJS"],
     image: {
-      LIGHT: "/images/projects/eventPlaza.webp",
-      DARK: "/images/projects/eventPlazaDark.webp",
+      LIGHT: "./images/projects/eventPlaza.webp",
+      DARK: "./images/projects/eventPlazaDark.webp",
     },
   },
   {
@@ -19,8 +19,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["React", "Bootstrap", "Nodejs", "ExpressJS"],
     image: {
-      LIGHT: "/images/projects/recipeRadar.webp",
-      DARK: "/images/projects/recipeRadarDark.webp",
+      LIGHT: "./images/projects/recipeRadar.webp",
+      DARK: "./images/projects/recipeRadarDark.webp",
     },
   },
   {
@@ -29,8 +29,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["React", "Bootstrap", "Nodejs", "ExpressJS"],
     image: {
-      LIGHT: "/images/projects/quizzerZest.webp",
-      DARK: "/images/projects/quizzerZestDark.webp",
+      LIGHT: "./images/projects/quizzerZest.webp",
+      DARK: "./images/projects/quizzerZestDark.webp",
     },
   },
 ];
@@ -38,10 +38,10 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
 export const PROJECTS_CARD: ProjectCardProps[] = [
   {
     name: "Event Plaza",
-    favicon: "/images/projects/logos/jsontree.ico",
+    favicon: "./images/projects/logos/jsontree.ico",
     imageUrl: [
-      "/images/projects/eventPlaza.webp",
-      "/images/projects/eventPlazaDark.webp",
+      "./images/projects/eventPlaza.webp",
+      "./images/projects/eventPlazaDark.webp",
     ],
     description:
       "EventPlaza is a comprehensive event management application developed with React.js. It facilitates event organizers to create and manage events seamlessly. Users can browse through a list of upcoming events, view event details, buy tickets, and receive QR codes for easy check-ins at the event venue.",
@@ -50,10 +50,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Recipe Radar",
-    favicon: "/images/projects/logos/kanban.ico",
+    favicon: "./images/projects/logos/kanban.ico",
     imageUrl: [
-      "/images/projects/recipeRadar.webp",
-      "/images/projects/recipeRadarDark.webp",
+      "./images/projects/recipeRadar.webp",
+      "./images/projects/recipeRadarDark.webp",
     ],
     description:
       "Recipe Radar is a user-friendly React web application that allows users to discover and save their favorite recipes. With Recipe Radar, you can easily search for recipes by entering ingredients or recipe names, and the app will fetch relevant recipes using the Spoonacular API.",
@@ -62,10 +62,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Quizzer Zest",
-    favicon: "/images/projects/logos/manygames.ico",
+    favicon: "./images/projects/logos/manygames.ico",
     imageUrl: [
-      "/images/projects/quizzerZest.webp",
-      "/images/projects/quizzerZestDark.webp",
+      "./images/projects/quizzerZest.webp",
+      "./images/projects/quizzerZestDark.webp",
     ],
     description:
       "QuizzerZest is a web application built with React.js that allows users to take quizzes on various topics and test their knowledge. It offers an interactive and engaging quiz-taking experience, where users can answer multiple-choice questions and get immediate feedback on their responses.",
@@ -74,10 +74,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "My portfolio",
-    favicon: "/favicon.ico",
+    favicon: "./favicon.ico",
     imageUrl: [
-      "/images/projects/portfolio.webp",
-      "/images/projects/portfolioDark.webp",
+      "./images/projects/portfolio.webp",
+      "./images/projects/portfolioDark.webp",
     ],
     description:
       "My personal portfolio website made using Nextjs, Tailwind CSS, TypeScript and Framer motion.",
@@ -86,10 +86,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "React Form Validation",
-    favicon: "/favicon.ico",
+    favicon: "./favicon.ico",
     imageUrl: [
-      "/images/projects/reactForm.webp",
-      "/images/projects/reactFormDark.webp",
+      "./images/projects/reactForm.webp",
+      "./images/projects/reactFormDark.webp",
     ],
     description:
       "The React Form Validation project is a robust and efficient solution for implementing client-side form validation in React applications. It provides developers with a simple and customizable way to validate user input in forms, ensuring data integrity and enhancing the overall user experience.",
@@ -98,10 +98,10 @@ export const PROJECTS_CARD: ProjectCardProps[] = [
   },
   {
     name: "Etch-a-Sketch",
-    favicon: "/images/projects/logos/stockpredictor.ico",
+    favicon: "./images/projects/logos/stockpredictor.ico",
     imageUrl: [
-      "/images/projects/etchASketch.webp",
-      "/images/projects/etchASketchDark.webp",
+      "./images/projects/etchASketch.webp",
+      "./images/projects/etchASketchDark.webp",
     ],
     description:
       "Etch-a-Sketch is a simple drawing application that allows users to draw on a grid of squares by moving the mouse. The grid's size can be dynamically adjusted, and colors are applied with random and progressive darkening effects.",
