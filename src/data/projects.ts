@@ -9,8 +9,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["React", "Bootstrap", "Nodejs", "ExpressJS"],
     image: {
-      LIGHT: "./images/projects/eventPlaza.webp",
-      DARK: "./images/projects/eventPlazaDark.webp",
+      LIGHT: "/images/projects/eventPlaza.webp",
+      DARK: "/images/projects/eventPlazaDark.webp",
     },
   },
   {
@@ -19,8 +19,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["React", "Bootstrap", "Nodejs", "ExpressJS"],
     image: {
-      LIGHT: "./images/projects/recipeRadar.webp",
-      DARK: "./images/projects/recipeRadarDark.webp",
+      LIGHT: "/images/projects/recipeRadar.webp",
+      DARK: "/images/projects/recipeRadarDark.webp",
     },
   },
   {
@@ -29,8 +29,8 @@ export const PROJECT_SHOWCASE: ProjectShowcaseListItem[] = [
     href: "/projects",
     tags: ["React", "Bootstrap", "Nodejs", "ExpressJS"],
     image: {
-      LIGHT: "./images/projects/quizzerZest.webp",
-      DARK: "./images/projects/quizzerZestDark.webp",
+      LIGHT: "/images/projects/quizzerZest.webp",
+      DARK: "/images/projects/quizzerZestDark.webp",
     },
   },
 ];
