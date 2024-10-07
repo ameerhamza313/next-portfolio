@@ -4,7 +4,9 @@ const withBundleAnalyzer = require("@next/bundle-analyzer")({
 
 /** @type {import('next').NextConfig} */
 const nextConfig = withBundleAnalyzer({
-  output: process.env.BUILD_STANDALONE === "true" ? "standalone" : undefined,
+  basePath: process.env.BASE_PATH || "/next-portfolio",
+  output: "export",
+  // output: process.env.BUILD_STANDALONE === "true" ? "standalone" : undefined,
   reactStrictMode: true,
   pageExtensions: ["ts", "tsx", "js"],
   eslint: {
