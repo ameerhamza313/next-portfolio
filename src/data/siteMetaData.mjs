@@ -8,7 +8,7 @@ export const siteMetadata = {
   siteName: "ameerhamza313.github.io",
   siteUrl: "https://ameerhamza313.github.io",
   siteRepo: "https://github.com/ameerhamza313/ameerhamza313.github.io",
-  siteLogo: "./public/favicon.ico",
+  siteLogo: "/public/favicon.ico",
   image: "/static/homepage.png",
   twitterImage: "/static/homepage.png",
   socialBanner: "/static/homepage.png",
@@ -16,5 +16,5 @@ export const siteMetadata = {
   github: "https://github.com/ameerhamza313",
   linkedin: "https://www.linkedin.com/in/ameerhamza-sanadi",
   locale: "en-US",
-  googleSiteVerification: "_YJlO90eSoye2AQOhbkRAzNbejzCGiTgAD4RNR3NtHc",
+  googleSiteVerification: "",
 };
