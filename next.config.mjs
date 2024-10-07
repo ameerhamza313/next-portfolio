@@ -10,7 +10,7 @@ const nextConfig = {
   },
   images: {
     loader: "akamai",
-    path: "/next-portfolio/",
+    path: "/",
     domains: ["flagcdn.com"],
     unoptimized: true,
   },
