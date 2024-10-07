@@ -9,9 +9,10 @@ const nextConfig = {
     dirs: ["src"],
   },
   images: {
-    domains: ["https://flagcdn.com"],
     loader: "akamai",
-    path: "",
+    path: "/next-portfolio/",
+    domains: ["flagcdn.com"],
+    unoptimized: true,
   },
   webpack: (config) => {
     config.module.rules.push({
@@ -30,4 +31,5 @@ const nextConfig = {
   },
 };
 
-module.exports = nextConfig;
+// Export the configuration using ESM syntax
+export default nextConfig;
