@@ -54,7 +54,7 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
               className="absolute right-0 top-0 -z-50"
             >
               <Image
-                src={`${basePath}images[currentImage].LIGHT`}
+                src={`${basePath}${images[currentImage].LIGHT}`}
                 unoptimized
                 width={100}
                 height={100}
