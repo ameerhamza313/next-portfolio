@@ -10,6 +10,8 @@ const nextConfig = {
   },
   images: {
     domains: ["https://flagcdn.com"],
+    loader: "akamai",
+    path: "",
   },
   webpack: (config) => {
     config.module.rules.push({
