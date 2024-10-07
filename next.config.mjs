@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/next-portfolio/",
+  basePath: "/next-portfolio",
   assetPrefix: "/next-portfolio/",
   output: "export",
   reactStrictMode: true,
@@ -9,8 +9,8 @@ const nextConfig = {
     dirs: ["src"],
   },
   images: {
-    loader: "akamai",
-    path: "https://ameerhamza313.github.io/next-portfolio/",
+    loader: "default",
+    path: "/next-portfolio/",
     domains: ["flagcdn.com"],
     unoptimized: true,
   },
