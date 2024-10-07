@@ -63,7 +63,7 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
               />
               {images[currentImage].DARK !== undefined && (
                 <Image
-                  src={images[currentImage].DARK!}
+                  src={`${basePath}${images[currentImage].DARK}`!}
                   unoptimized
                   width={100}
                   height={100}
