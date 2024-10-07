@@ -1,6 +1,7 @@
 import { useMemo, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { useRouter } from "next/router";
 
 import { AnimatePresence, motion } from "framer-motion";
 
@@ -18,6 +19,7 @@ interface ProjectShowcaseProps {
 }
 
 export default function ProjectShowcase(props: ProjectShowcaseProps) {
+  const { basePath } = useRouter();
   const [currentImage, setCurrentImage] = useState<number>(0);
 
   const images = useMemo(() => {
@@ -52,7 +54,7 @@ export default function ProjectShowcase(props: ProjectShowcaseProps) {
               className="absolute right-0 top-0 -z-50"
             >
               <Image
-                src={images[currentImage].LIGHT}
+                src={`${basePath}images[currentImage].LIGHT`}
                 unoptimized
                 width={100}
                 height={100}
