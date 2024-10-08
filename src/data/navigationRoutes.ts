@@ -1,4 +1,5 @@
 import { NavbarRoutes } from "@/layout/navbar";
+const RESUME_LINK = process.env.NEXT_PUBLIC_RESUME_LINK || "";
 
 export const routes: NavbarRoutes = [
   { title: "Home", href: "/" },
@@ -6,6 +7,6 @@ export const routes: NavbarRoutes = [
   { title: "Projects", href: "/projects" },
   {
     title: "Resume",
-    href: "https://drive.google.com/file/d/1nqSQGfKlfEyOwmvxGE_nkrBLd2G9EQ6K/view",
+    href: `${RESUME_LINK}`,
   },
 ];

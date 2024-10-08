@@ -10,6 +10,7 @@ import ContactMailToast, {
   type MailSentToastState,
 } from "@/components/contact-form/contact-mail-toast";
 import React from "react";
+const SEND_MAIL_API = process.env.NEXT_PUBLIC_SEND_MAIL_API;
 
 export interface ContactFormModelProps {
   showModal: boolean;
@@ -30,7 +31,7 @@ export default function ContactFormModal({
   const handleSubmit = async (values: ContactFormValues) => {
     setIsSendingMail(true);
     try {
-      const response = await fetch("/api/sendmail", {
+      const response = await fetch(`${SEND_MAIL_API}`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(values),
@@ -56,7 +57,7 @@ export default function ContactFormModal({
       setToastState({
         type: "failure",
         value: true,
-        message: "Oop! Unable to send email",
+        message: "Oops! Unable to send email",
       });
     }
     setIsSendingMail(false);
